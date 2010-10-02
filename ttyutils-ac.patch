@@ -1,0 +1,20 @@
+--- ttyutils-3.0.3/configure.ac~	2010-09-17 05:36:28.000000000 +0200
++++ ttyutils-3.0.3/configure.ac	2010-10-02 19:21:05.661375807 +0200
+@@ -89,7 +89,7 @@
+ AM_PROG_CC_C_O
+ AC_PROG_LIBTOOL
+ AC_PATH_PROG(GLIB_GENMARSHAL, glib-genmarshal, false)
+-AC_PATH_PROG(LUAC, luac, false)
++AC_PATH_PROG(LUAC, luac51, false)
+ AC_PROG_INSTALL
+ AC_PROG_RANLIB
+ AC_PROG_LN_S
+@@ -109,7 +109,7 @@
+ fi
+ AM_PATH_LIBGCRYPT([1.4.0])
+ #PKG_CHECK_MODULES(GNUTLS, [gnutls >= 2.4.0])
+-PKG_CHECK_MODULES(LUA, [lua >= 5.1])
++PKG_CHECK_MODULES(LUA, [lua51 >= 5.1])
+ PKG_CHECK_MODULES(LIBZIP, [libzip >= 0.8])
+ AC_CHECK_LIB(readline, readline, [READLINE_LIBS=-lreadline LIBS="$LIBS -lreadline"])
+ AC_SUBST(READLINE_LIBS)

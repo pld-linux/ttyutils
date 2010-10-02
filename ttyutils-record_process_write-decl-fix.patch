@@ -1,0 +1,11 @@
+--- ttyutils-3.0.3/record/record-process.c~	2010-08-29 11:30:33.000000000 +0200
++++ ttyutils-3.0.3/record/record-process.c	2010-10-02 19:29:17.784930257 +0200
+@@ -1048,7 +1048,7 @@
+ gboolean
+ record_process_write (RecordProcess *process,
+ 		      const gchar   *buff,
+-		      gint           size)
++		      gssize         size)
+ {
+   g_return_val_if_fail (RECORD_IS_PROCESS (process), FALSE);
+   g_return_val_if_fail (buff, FALSE);

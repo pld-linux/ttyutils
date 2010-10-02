@@ -1,0 +1,10 @@
+--- ttyutils-3.0.3/luamod/Makefile.am~	2010-08-29 12:09:03.000000000 +0200
++++ ttyutils-3.0.3/luamod/Makefile.am	2010-10-02 19:36:00.021161309 +0200
+@@ -5,6 +5,7 @@
+ 	      -DG_DISABLE_DEPRECATED			\
+ 	      -DLUALIBDIR=\"$(libdir)/@PACKAGE@/lua\"	\
+ 	      $(GLIB_CFLAGS)				\
++	      $(LUA_CFLAGS)				\
+ 	      -I$(top_srcdir)
+ 
+ module_flags  = -export-dynamic -module -avoid-version -no-undefined $(LIBRARY_LDFLAGS)

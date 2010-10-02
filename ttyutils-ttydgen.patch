@@ -1,0 +1,15 @@
+--- ttyutils-3.0.3/docs/ttydgen.sh~	2010-08-28 02:09:28.000000000 +0200
++++ ttyutils-3.0.3/docs/ttydgen.sh	2010-10-02 19:41:41.902466827 +0200
+@@ -20,9 +20,9 @@
+ 
+ # xsl
+ #
+-man_xsl=/usr/share/sgml/docbook/xsl-stylesheets-1.73.2/manpages/docbook.xsl
+-htm_xsl=/usr/share/sgml/docbook/xsl-stylesheets-1.73.2/html/docbook.xsl
+-fo_xsl=/usr/share/sgml/docbook/xsl-stylesheets-1.73.2/fo/docbook.xsl
++man_xsl=/usr/share/sgml/docbook/xsl-stylesheets/manpages/docbook.xsl
++htm_xsl=/usr/share/sgml/docbook/xsl-stylesheets/html/docbook.xsl
++fo_xsl=/usr/share/sgml/docbook/xsl-stylesheets/fo/docbook.xsl
+ 
+ # arguments
+ #
