@@ -14,7 +14,7 @@ Patch3:		%{name}-ttydgen.patch
 URL:		http://www.ttyutils.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	intltool >= 0.35.0
